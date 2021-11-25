@@ -2,8 +2,8 @@ var num1, num2;
 num1=prompt("Enter the first number :");
 num2=prompt("Enter the Second number :");
 
-num1= parseInt(num1);
-num2= parseInt(num2);
+num1= parseFloat(num1);
+num2= parseFloat(num2);
 
 document.write("First Number is :"+num1+"<br/>");
 document.write("Second Number is :"+num2+"<br/>");
